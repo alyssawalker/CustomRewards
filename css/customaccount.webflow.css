@@ -1,0 +1,324 @@
+.cs-accountpage {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 0px;
+  font-family: Montserrat, sans-serif;
+}
+
+.cs-account-rewards {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f8f1f1;
+}
+
+.cs-div-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  padding-left: 29px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.cs-rewardheading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.cs-pointhistorytext {
+  color: #333;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cs-buttonreward {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  height: 60px;
+  margin-bottom: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, .08);
+  background-color: #fff;
+  color: rgba(0, 0, 0, .59);
+  font-size: 16px;
+  text-align: center;
+}
+
+.cs-buttonreward.adj {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.cs-buttonreward.adj._1 {
+  margin-left: 0px;
+}
+
+.cs-buttonreward.adj.login {
+  background-color: #f8f1f1;
+}
+
+.cs-rewardssubheading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  padding-left: 30px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cs-rewardsdivider {
+  width: 60%;
+  height: 1px;
+  background-color: #efcab9;
+}
+
+.cs-reards-text {
+  width: 40%;
+}
+
+.cs-block.circles {
+  padding: 45px;
+}
+
+.cs-nopaddingcolumn {
+  padding-right: 0px;
+  padding-left: 10px;
+}
+
+.cs-imageblock {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: url('../images/image_spend_dollars_1024x1024.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.cs-imageblock._1 {
+  background-image: url('../images/image_create_account_1024x1024.jpg');
+}
+
+.cs-imageblock._2 {
+  background-image: url('../images/image_like_facebook_1024x1024.jpg');
+}
+
+.cs-imageblock._3 {
+  background-image: url('../images/048A0731_1024x1024-1.jpg');
+}
+
+.cs-imageblock._4 {
+  background-image: url('../images/instagram_1024x1024.jpg');
+}
+
+.cs-imageblock._5 {
+  background-image: url('../images/birthday_1abaf94c-1c1c-4453-9e72-1cef33a0bc90_1024x1024.jpg');
+}
+
+.cs-imageblock._6 {
+  background-image: url('../images/share_61640f0d-83b2-4782-82ea-29c2f4f5fd76_1024x1024.jpg');
+}
+
+.cs-imageblock._7 {
+  background-image: url('../images/refer-a-friend_ab055cec-c9f8-41f2-83d0-7c87c6bb3527_1024x1024.jpg');
+}
+
+.cs-rewardrow {
+  margin-bottom: 10px;
+}
+
+.cs-rounddiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  padding: 29px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #efcab9;
+  border-radius: 300px;
+  background-color: #efcab9;
+  text-align: center;
+}
+
+.cs-roundheading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cs-roundsubhead {
+  margin-top: 3px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.cs-imagetext {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.cs-notloggedin {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  padding-left: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: url('../images/loyalty_2048x2048.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cs-largeheadingrewards {
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.cs-buttons-rewards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 479px) {
+  .cs-div-heading {
+    height: 45vh;
+    padding-left: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cs-rewardtext {
+    width: 100%;
+  }
+  .cs-rewardheading {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .cs-pointhistorytext {
+    width: 100%;
+  }
+  .cs-buttonreward {
+    width: 80%;
+  }
+  .cs-buttonreward.adj.login {
+    margin-left: 0px;
+  }
+  .cs-block.circles {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .cs-nopaddingcolumn {
+    padding-bottom: 5px;
+    padding-left: 0px;
+  }
+  .cs-rounddiv {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 43px;
+    margin-left: 47px;
+  }
+  .cs-notloggedin {
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .cs-largeheadingrewards {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .cs-buttons-rewards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
